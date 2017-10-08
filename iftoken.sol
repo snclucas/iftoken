@@ -88,7 +88,7 @@ contract StandardToken is Token {
 
 
 //name this contract whatever you'd like
-contract ERC20Token is StandardToken {
+contract InternetFunToken is StandardToken {
 
     function () {
         //if ether is sent to this address, send it back.
@@ -114,7 +114,7 @@ contract ERC20Token is StandardToken {
 
 //make sure this function name matches the contract name above. So if you're token is called TutorialToken, make sure the //contract name above is also TutorialToken instead of ERC20Token
 
-    function ERC20Token(
+    function InternetFunToken (
         ) {
         balances[msg.sender] = 1000000000000000000000000000; // Give the creator all initial tokens (100000 for example)
         totalSupply = 1000000000000000000000000000;          // Update total supply (100000 for example)
