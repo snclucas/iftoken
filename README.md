@@ -1,0 +1,2 @@
+# iftoken
+Internet Fun Tokens
